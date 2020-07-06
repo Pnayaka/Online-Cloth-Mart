@@ -1,9 +1,9 @@
 # Online-Cloth-Mart
 
- Application to include the below modules as a basic ones and additionally, value adds can be included. 
-         i) eCart 
-         ii) Order Management &amp; Status tracking 
-         iii) Admin Interface – User &amp; Product Management 
-         iv) Payment Gateway 
-         v) Secured authentication mechanism 
-         vi) Tax Calculations
+ ### Application to include the below modules as a basic ones and additionally, value adds can be included. 
+         - eCart 
+         - Order Management &amp; Status tracking 
+         - Admin Interface – User &amp; Product Management 
+         - Payment Gateway 
+         - Secured authentication mechanism 
+         - Tax Calculations

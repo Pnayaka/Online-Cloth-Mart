@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="net.kzn.shoppingbackend.test.CategoryTestCase" time="0.582" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="net.kzn.shoppingbackend.test.CategoryTestCase" time="0.365" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="E:\java\jre\bin"/>
     <property name="java.vm.version" value="25.251-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\WorkPlace\Business Case\Online Shoping\online-shopping-master\shoppingbackend"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\WorkPlace\Business Case\Online Shoping\Online-Cloth-Mart\shoppingbackend"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\WorkPlace\Business Case\Online Shoping\online-shopping-master\shoppingbackend"/>
+    <property name="user.dir" value="E:\WorkPlace\Business Case\Online Shoping\Online-Cloth-Mart\shoppingbackend"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="E:\java\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\WorkPlace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4486700626416247593.tmp"/>
+    <property name="classworlds.conf" value="E:\WorkPlace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5007118381845119933.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="E:\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES\BROADCOM\BROADCOM 802.11 NETWORK ADAPTER;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\SONY\VAIO IMPROVEMENT;C:\PROGRAM FILES (X86)\SONY\VAIO BIOS DATA TRANSFER UTILITY\;C:\PROGRAM FILES (X86)\SONY\VAIO STARTUP SETTING TOOL;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;E:\Virtusa\Microsoft VS Code\bin;E:\Virtusa\NodeJS\;E:\Virtusa\Maven\apache-maven-3.6.3\bin;E:\Git\cmd;E:\Python\Scripts\;E:\Python\;C:\Users\Parikshith Nayaka\AppData\Local\Microsoft\WindowsApps;C:\Users\Parikshith Nayaka\AppData\Local\GitHubDesktop\bin;C:\Users\Parikshith Nayaka\AppData\Roaming\npm;E:\java\bin;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="E:\java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="E:\java\jre\lib\resources.jar;E:\java\jre\lib\rt.jar;E:\java\jre\lib\sunrsasign.jar;E:\java\jre\lib\jsse.jar;E:\java\jre\lib\jce.jar;E:\java\jre\lib\charsets.jar;E:\java\jre\lib\jfr.jar;E:\java\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\WorkPlace\Business Case\Online Shoping\online-shopping-master\shoppingbackend\EMBEDDED"/>
+    <property name="maven.home" value="E:\WorkPlace\Business Case\Online Shoping\Online-Cloth-Mart\shoppingbackend\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,12 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="net.kzn.shoppingbackend.test.CategoryTestCase" name="testCRUDCategory" time="0.582">
-    <failure message="Successfully fetched the list of categories from the table! expected:&lt;1&gt; but was:&lt;24&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Successfully fetched the list of categories from the table! expected:&lt;1&gt; but was:&lt;24&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at net.kzn.shoppingbackend.test.CategoryTestCase.testCRUDCategory(CategoryTestCase.java:127)
+  <testcase classname="net.kzn.shoppingbackend.test.CategoryTestCase" name="testCRUDCategory" time="0.365">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at net.kzn.shoppingbackend.test.CategoryTestCase.testCRUDCategory(CategoryTestCase.java:117)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,10 +94,10 @@
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-    <system-out>INFO  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@444cc791: startup date [Tue Jun 23 12:23:03 IST 2020]; root of context hierarchy 12:23:03.907 o.s.c.a.AnnotationConfigApplicationContext 
-INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 12:23:04.266 org.hibernate.dialect.Dialect 
-INFO  Using DataSource [org.apache.commons.dbcp2.BasicDataSource@3672276e] of Hibernate SessionFactory for HibernateTransactionManager 12:23:04.671 o.s.o.h.HibernateTransactionManager 
+</error>
+    <system-out>INFO  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@444cc791: startup date [Wed Jul 08 13:38:38 IST 2020]; root of context hierarchy 13:38:38.649 o.s.c.a.AnnotationConfigApplicationContext 
+INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 13:38:39.171 org.hibernate.dialect.Dialect 
+INFO  Using DataSource [org.apache.commons.dbcp2.BasicDataSource@3672276e] of Hibernate SessionFactory for HibernateTransactionManager 13:38:39.435 o.s.o.h.HibernateTransactionManager 
 Hibernate: 
     insert 
     into
@@ -126,38 +123,6 @@ Hibernate:
         Category category0_ 
     where
         category0_.id=?
-Hibernate: 
-    update
-        Category 
-    set
-        is_active=?,
-        description=?,
-        image_url=?,
-        name=? 
-    where
-        id=?
-Hibernate: 
-    update
-        Category 
-    set
-        is_active=?,
-        description=?,
-        image_url=?,
-        name=? 
-    where
-        id=?
-INFO  HHH000397: Using ASTQueryTranslatorFactory 12:23:05.248 o.h.h.i.QueryTranslatorFactoryInitiator 
-Hibernate: 
-    select
-        category0_.id as id1_3_,
-        category0_.is_active as is_activ2_3_,
-        category0_.description as descript3_3_,
-        category0_.image_url as image_ur4_3_,
-        category0_.name as name5_3_ 
-    from
-        Category category0_ 
-    where
-        category0_.is_active=?
 </system-out>
   </testcase>
 </testsuite>

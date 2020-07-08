@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.kzn.shoppingbackend.test.CartLineTestCase
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.915 sec <<< FAILURE!
-testUpdateCartLine(net.kzn.shoppingbackend.test.CartLineTestCase)  Time elapsed: 0.542 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.755 sec <<< FAILURE!
+testUpdateCartLine(net.kzn.shoppingbackend.test.CartLineTestCase)  Time elapsed: 0.668 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.kzn.shoppingbackend.test.CartLineTestCase.testUpdateCartLine(CartLineTestCase.java:77)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
